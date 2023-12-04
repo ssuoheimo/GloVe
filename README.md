@@ -1,8 +1,13 @@
 # MusiGlove
-## A new musical instrument for vocalists and live performers
+## A novel, fun generative musical instrument for vocalists and live performers
 
-A novel generative glove instrument for dynamic, real-time generative sound expression.
-My software written in PureData for Bela microcontroller hardware to power a generative glove instrument I built and designed.
+I developed and created a novel generative glove instrument for dynamic, real-time generative musical expression.
+
+I wrote the software in PureData and designed the wireless glove user interface with sound and motion capture. 
+
+The software and signal processing from embedded glove sensors runs on Bela microcontroller hardware to power the generative glove instrument, MusiGlove. 
+
+I built and designed MusiGlove to create a novel, intuitive and simple instrument controlled with natural body movements, making musical performance, expression, and creation fun for trained musicians and recreational users alike.
 
 <p align="left">
   <img src="https://github.com/ssuoheimo/GloVe/blob/main/PrePCB_v3_Breadboard.png" width="35%" height="30%">
