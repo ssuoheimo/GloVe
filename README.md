@@ -92,26 +92,49 @@ Furthermore, the initial ambition of several sensors and their interaction was s
 
 ## Bill of Materials
 Based on the designs and sketches, I planned a bill of materials and listed the tools needed to create the first iterations of the instrument, sensors, and glove. Careful planning helped, but not all components were available, resulting in a last-week redesign of the final prototype around less sensors and implementing basic switching features in PD instead.
-Bela Board microcontroller
+
+Bela Board microcontroller (Firmware 2022)
+
 Breadboard
+
 5 Flex Sensors (Final design works with two)
+
 Wiring and straps
+
 Gloves: kitchen rubber gloves and surgical gloves for first rough prototypes, leather inner and outer gloves for final prototype
+
 Felt and plastic reinforcements
+
 2 Potentiometers (for pre-glove iteration on breadboard)
+
 Flexible potentiometers
-Resistors
+
+Resistors, 10 OHM, 100 OHM, 20 OHM
+
 Power source (LiPo battery)
+
 Accelerometer (Not used in final version)
+
 Capacitive touch sensor (Replaced with flex sensor programming) ESP32 Dev kit (Did not arrive, can be used in v2.0 wireless version) Memory card
+
 1⁄8 stereo plug input and output, female
-Basic battery powered loudspeaker for testing
+
+Basic battery-powered loudspeaker for testing
+
 Zoom H5 audio interface
+
 Dynamic Rode microphone
-XLR cable
+
+XLR cable, 3m
+
+Generic components and wiring, soldering materials and equipment 
+
+PCB att.
 
 ## Software implementation with PD
+
 ### Bela & Pure Data
+
 Learning, creating and experimenting with PD 0.52-2 Vanilla and Bela was an entirely new challenge for me. After the course introduction and coding exercises, I studied PD documentation, open source projects and new objects online, on forums, in PD help sections and Youtube tutorials. A key lesson was the depth of PD and the value of getting features working in small batches, often one by one on the Bela, instead of trying to run complex patches that worked on a Mac laptop and uploading them to Bela, as this made troubleshootin the code very complex. Unexpected errors occurred throughout the project, and many couldn’t be solved even with hours of studying documentation, rare error messages and the generous help of community documentation, which lead to dozens of hours of rewriting and simplifying the patches designed in the previous design phase during the project and running them one by one to ensure stability. The ability to troubleshoot and modify variables live on Bela would have been a great asset in this phase, but instead, surprising amounts of time trickled into uploading small batches of code onto Bela to identify and solve PD problems that did not present themselves on a laptop.
 I used analog inputs from the flex sensors in the glove’s fingers to control and stack the FM synth, “Chordifyer” and reverb. Initially, I designed these to be dynamic and to also control the FM synth attack and other variables but decided to cut these features for the time being to ensure smooth performance, to limit error and stability issues, and to make sure a working stable prototype would be produced by the end of Week 6 of the project.
 A key lesson was to run small parts of the PD programming at a time, as problems could not be identified in a Mac environment, which was a slight surprise considering Bela’s capability of running PD vanilla. Some issues could not even be fixed by changing Bela’s data rate, and had to be solved by simplifying the code and features.
