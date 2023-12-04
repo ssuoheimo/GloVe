@@ -27,7 +27,9 @@ A new musical instrument for vocalists and live performers
 7th December 2022
  
 Table of Contents
+
 Table of Contents 2
+
 Overview 3
 Project Plan and Design 3
 Goals 3 Design and Sketching Phase 3 Bill of Materials 6
