@@ -190,7 +190,7 @@ The simplicity on the code, user interface and instrument UX level were key less
 # MusiGlove - The Working Finished Instrument that's Fun, Intuitive and Easy to Use for Live Musical Expression and Creative Journeys
 
 <p align="left">
-  <img src="https://github.com/ssuoheimo/GloVe/blob/resources/perf_bw.png" width="35%" height="30%">
+  <img src="https://github.com/ssuoheimo/GloVe/blob/main/resources/perf_bw.png" width="35%" height="30%">
   <img src="https://github.com/ssuoheimo/GloVe/blob/main/glove_user.png" width="35%" height="45%">
  
 </p>
