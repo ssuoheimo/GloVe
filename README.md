@@ -21,28 +21,43 @@ My software written in PureData for Bela microcontroller hardware to power a gen
 Software, hardware, bill of materials, build documentation for sensor and microcontroller system.
 
 Simo Suoheimo
-MusiGlove
-A new musical instrument for vocalists and live performers
+### MusiGlove
+A novel musical instrument for vocalists and live performers
 
 7th December 2022
  
-Table of Contents
-
-Table of Contents 2
+### Table of Contents
 
 Overview 3
+
 Project Plan and Design 3
-Goals 3 Design and Sketching Phase 3 Bill of Materials 6
+
+Goals 3 
+
+Design and Sketching Phase 3 
+
+Bill of Materials 6'
+
 Software implementation with PD 7
+
 Bela & Pure Data 7 
+
 Inputs from interface, Chordifyer with Sigmund pitch analyzer object, Osc’s and phasors 8 
+
 Vocal pitch-following FM Synth with chords and chorus 9 
+
 Reverb 10
+
 Hardware implementation and construction the instrument 11
+
 Electronics and Glove Design 11 Flex Sensors 13
+
 Playing the MusiGlove and Lessons Learned 15
+
 Design Principles: Simplicity reigns supreme 15
+
 The value of testing code and sensors in small batches is immense and makes it easier to focus on the right features 15
+
 New electronic instruments can be fun and intuitive when they are designed around the performers’ natural movement 16
 
 ## Overview
